@@ -19,6 +19,14 @@ main {
     flex-direction: column;
 }
 
+#input-name, #input-lastname, #input-email {
+    width: 300px;
+}
+
+#house {
+    width: 300px;
+}
+
 #trybewarts-forms-logo {
     height: 500px;
 }
