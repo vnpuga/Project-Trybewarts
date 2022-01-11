@@ -13,3 +13,19 @@ function validate () {
 }
 validate();
 
+
+const checkBox = document.getElementById('agreement');
+const submitBtn = document.getElementById('submit-btn');
+
+submitBtn.disabled = true;
+
+checkBox.addEventListener('click', () => {
+  if (checkBox.checked === false) {
+    submitBtn.disabled = true;
+  } else {
+    submitBtn.disabled = false;
+  }
+});
+
+// REQUISITO 18 referência:https://developer.mozilla.org/en-US/docs/Web/API/HTMLSelectElement/disabled 
+
