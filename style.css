@@ -33,6 +33,13 @@ main {
     width: 600px;
 }
 
+#submit-btn {
+    background-color: rgb(92, 0, 128);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
 #trybewarts-forms-logo {
     height: 500px;
 }
