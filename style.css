@@ -29,6 +29,9 @@ main {
     background-color: white;
 }
 
+#textareas {
+    width: 600px;
+}
 
 #trybewarts-forms-logo {
     height: 500px;
