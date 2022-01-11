@@ -24,7 +24,9 @@ main {
 }
 
 #house {
-    width: 300px;
+    width: 265px;
+    border-radius: 10px;
+    background-color: white;
 }
 
 #trybewarts-forms-logo {
