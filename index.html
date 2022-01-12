@@ -15,31 +15,31 @@
     <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" alt="logo-trybe">
     <h1 id="trybewarts-header-title">Trybewarts</h1>
     <form action="" method="get "class="trybewarts-login">
-      <input type="email" name="email" placeholder="Email" id="emailInput">
+      <input type="email" name="email" placeholder="Email" id="emailInput">   
       <input type="password" name="password" placeholder="Senha" id="senhaInput">
       <button id="buttonClick">Entrar</button>
     </form>
   </header>
+
   <main>
     <form id="evaluation-form">
       <h2>Formulário de avaliação</h2>
-      <div class="nome-sobrenome">
-        <input type="text" name="name" placeholder="Nome" id="input-name">
-        <input type="text" name="name" placeholder="Sobrenome" id="input-lastname">
+     <div class="name-container">
+        <input type="text" name="nome" id="input-name" placeholder="Nome">
+        <input type="text" name="last-name" id="input-lastname" placeholder="Sobrenome">
       </div>
-
-      <div class="email-house">
-        <input type="text" name="name" placeholder="Email" id="input-email">
-        <!-- /* Formulário */ -->
-        <label for="house" id="house-label">Casa:</label>
-        <select id="house">
-          <option id="gitnoria-house" value="Gitnória" text="Gitnoria">Gitnória</option>
-          <option id="reactpuff-house" value="Reactpuff" text="Reactpuff">Reactpuff</option>
-          <option id="corvinode-house" value="Corvinode" text="Corvinode">Corvinode</option>
-          <option id="pytherina-house" value="Pytherina" text="Pytherina">Pytherina</option>
-        </select>
+      <div class="emailcasa">
+        <input type="email" name="email" id="input-email" placeholder="Email">
+        <div id="house-container">
+          <label for="house" id="house-label">Casa:</label>
+          <select name="select" id="house">
+        <option id="gitnoria-house" value="Gitnória" text="Gitnória">Gitnória</option>
+        <option id="reactpuff-house" value="Reactpuff" text="Reactpuff">Reactpuff</option>
+        <option id="corvinode-house" value="Corvinode" text="Corvinode">Corvinode</option>
+        <option id="pytherina-house" value="Pytherina" text="Pytherina">Pytherina</option>
+          </select>
+        </div>
       </div>
-
     </br>
       <div id="input-container">
         <div class="family-options">
@@ -72,7 +72,7 @@
           </div>
         </div>
       </div>
-
+      <hr>
       <div class="avaliação">
         <label id="label-rate">Como você avalia a Trybewarts?</label>
         <input type="radio" name="rate" value="1">1
@@ -87,13 +87,14 @@
         <input type="radio" name="rate" value="10">10
       </div>
 
-      <div class="areas">
-        <div class="textArea">
-          <label class="textarea">Deixe seu comentário:</label>
-          <textarea id="textareas" cols="30" rows="10" maxlength="500"></textarea>
+      <div class="textarea-container">
+        <div>
+          <label for="" class="textarea">Deixe seu comentário:</label>
         </div>
-
+        <textarea name="" onkeyup="" id="textarea" cols="60" rows="10" maxlength="500"></textarea>
+        <p id="counter">500</p>
       </div>
+
 
       <div class="concorda-termos">
         <label id="label-infos">Você concorda com o uso das informações acima?</label>

@@ -1,6 +1,8 @@
 const emailInput = document.getElementById('emailInput');
 const senhaInput = document.getElementById('senhaInput');
 const butttonC = document.getElementById('buttonClick');
+const textArea = document.getElementById('textarea');
+const counter = document.getElementById('counter');
 
 function validate () {
     butttonC.addEventListener('click', () => {
@@ -29,3 +31,6 @@ checkBox.addEventListener('click', () => {
 
 // REQUISITO 18 referência:https://developer.mozilla.org/en-US/docs/Web/API/HTMLSelectElement/disabled 
 
+textArea.addEventListener('keyup', () => {
+  counter.innerText = 500 - textArea.value.length;
+});
