@@ -29,8 +29,7 @@ body {
   margin-top: 10px;
 }
 
-#emailInput,
-#senhaInput {
+#emailInput, #senhaInput {
   height: 40px;
   border-radius: 10px;
   width: 180px;
@@ -44,7 +43,7 @@ body {
   background-color: rgb(92, 0, 128);
   color: white;
   font-size: 15px;
-  font-weight: bolder;
+  font-weight: 900;
 }
 
 main {
@@ -72,12 +71,12 @@ h2 {
   height: 30px;
 }
 
-#input-name,
-#input-lastname {
+#input-name, #input-lastname {
   width: 48%;
   border-radius: 5px;
   border: 1px solid grey;
 }
+
 /* 2 */
 .emailcasa {
   display: flex;
@@ -86,18 +85,16 @@ h2 {
   height: 30px;
 }
 
-#house-container,
-#input-email {
+#house-container, #input-email {
   width: 50%;
 }
 
 #house {
   height: 35px;
-  border-radius: 4px;
   width: 265px;
   border-radius: 10px;
   background-color: white;
-  font-weight: bolder;
+  font-weight: 900;
 }
 
 #house-label {
@@ -117,7 +114,7 @@ h2 {
   flex-direction: column;
   justify-content: space-around;
   font-style: oblique;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 .ckeckbox-options {
@@ -126,7 +123,7 @@ h2 {
   flex-direction: column;
   justify-content: space-around;
   font-style: oblique;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 #primeira-div {
@@ -152,7 +149,7 @@ h2 {
   color: white;
   padding: 10px;
   border-radius: 5px;
-  font-weight: bolder;
+  font-weight: 900;
 }
 
 #trybewarts-forms-logo {
@@ -166,14 +163,7 @@ h2 {
   justify-content: space-between;
 }
 
-#input-container {
-  display: flex;
-  justify-content: space-between;
-  height: 170px;
-}
-
-#first-content,
-#second-content {
+#first-content, #second-content {
   display: flex;
 }
 
@@ -191,7 +181,7 @@ hr {
 }
 
 #label-rate {
-  font-weight: bold;
+  font-weight: 900;
   font-style: oblique;
 }
 
@@ -205,15 +195,8 @@ hr {
 }
 
 .textarea {
-  font-weight: bold;
+  font-weight: 900;
   font-style: oblique;
-}
-
-#submit-btn {
-  color: white;
-  background-color: rgb(92, 0, 128);
-  height: 40px;
-  border-radius: 4px;
 }
 
 footer {
@@ -221,6 +204,6 @@ footer {
   background-color: rgb(66, 66, 66);
   padding: 15px;
   color: white;
-  font-weight: bolder;
+  font-weight: 900;
   margin-bottom: 5px;
 }

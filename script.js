@@ -4,7 +4,7 @@ const butttonC = document.getElementById('buttonClick');
 const textArea = document.getElementById('textarea');
 const counter = document.getElementById('counter');
 
-function validate () {
+function validate() {
   butttonC.addEventListener('click', () => {
     if (emailInput.value === 'tryber@teste.com' && senhaInput.value === '123456') {
       alert('Olá, Tryber!');
@@ -28,7 +28,7 @@ checkBox.addEventListener('click', () => {
   }
 });
 
-// REQUISITO 18 referência:https://developer.mozilla.org/en-US/docs/Web/API/HTMLSelectElement/disabled 
+// REQUISITO 18 referência:https://developer.mozilla.org/en-US/docs/Web/API/HTMLSelectElement/disabled
 
 textArea.addEventListener('keyup', () => {
   counter.innerText = 500 - textArea.value.length;
