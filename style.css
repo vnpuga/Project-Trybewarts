@@ -29,7 +29,7 @@ body {
   margin-top: 10px;
 }
 
-#emailInput, #senhaInput {
+#emailInput , #senhaInput {
   height: 40px;
   border-radius: 10px;
   width: 180px;
@@ -71,7 +71,7 @@ h2 {
   height: 30px;
 }
 
-#input-name, #input-lastname {
+#input-name , #input-lastname {
   width: 48%;
   border-radius: 5px;
   border: 1px solid grey;
@@ -85,7 +85,7 @@ h2 {
   height: 30px;
 }
 
-#house-container, #input-email {
+#house-container , #input-email {
   width: 50%;
 }
 
@@ -163,7 +163,7 @@ h2 {
   justify-content: space-between;
 }
 
-#first-content, #second-content {
+#first-content , #second-content {
   display: flex;
 }
 
