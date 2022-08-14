@@ -11,4 +11,5 @@ Este projeto em dupla foi desenvolvido por **Viviane Puga** e **Miguel Lima**, c
 * Construir páginas que alteram o seu layout de acordo com a orientação da tela;
 
 Neste projeto, desenvolvemos uma página de formulário da Escola de Magia de Trybewarts, em que as pessoas estudantes poderão enviar seus feedbacks sobre ela. O tema desse projeto é baseado na obra 'Harry Potter', de J. K. Rowling, já que programar é o mais próximo que podemos chegar de algo **verdadeiramente mágico**! 
+
 Trabalhar nesse projeto com o Miguel foi incrível, trabalhamos em pair programming, aprendi muito com ele sobre estilização, a interação entre nós fluiu tranquila e respeitosamente. Adorei essa experiência!
