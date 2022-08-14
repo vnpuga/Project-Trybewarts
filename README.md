@@ -1,6 +1,6 @@
 Este projeto em dupla foi desenvolvido por **Viviane Puga** e **Miguel Lima**, como parte do programa de estudos da **Trybe**
 
-![Página da Trybewarts](./img-project.png)
+![Página da Trybewarts](./img-projetc.png)
 
 
 ## Habilidades desenvolvidas
